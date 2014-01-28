@@ -1,0 +1,53 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Dominion Card Shuffler</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+  <link href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+        <!--[if lt IE 10]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+            <![endif]-->
+  <header>
+
+  </header>
+
+  <section>
+    <h1>Dominion Card Shuffler</h1>
+    <ul>
+      <li>
+        <input type="checkbox" name="togglePreferenceAttackCards" class="preference-input" checked>
+        <label for="togglePreferenceAttackCards">Include attack cards</label>
+      </li>
+      <li>
+        <input type="checkbox" name="togglePreferenceReactionCards" class="preference-input" checked>
+        <label for="togglePreferenceReactionCards">Include reaction cards</label>
+      </li>
+      <li>
+        <label id="cardPriceRange">Card price range: 0 - 5</label>
+        <div class="slider">
+          <div id="cardPriceRangeSelector"></div>
+        </div>
+        <input type="hidden" id="cardMinPriceInput">
+        <input type="hidden" id="cardMaxPriceInput">
+      </li>
+    </ul>  
+    <button type="button" id="shuffleButton">Shuffle!</button>
+    <ul id="possibleCardsList"></ul>
+    <ul id="selectedCardsList"></ul>
+  </section>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.js"></script>
+  <script src="shufflerapp.js"></script>
+</body>
+</html>
