@@ -1,23 +1,8 @@
 ;
 (function() {
 
-  function ActionCard(id, prettyName, price, types) {
-    return {
-      id: id,
-      prettyName: prettyName,
-      price: price,
-      types: types || []
-    }
-  };
-
-  var existingActionCards = [
-    new ActionCard ('cellarCard', 'Cellar', 2),
-    new ActionCard ('chapelCard', 'Chapel', 2),
-    new ActionCard ('moatCard',   'Moat',   2, ['reaction']),
-    new ActionCard ('witchCard',  'Witch',  5, ['attack'])
-  ];
-
-  var possibleCards = _.cloneDeep(existingActionCards);
+  var existingActionCards = [];
+  var possibleCards = [];
 
   function updateCardList(cards, list) {
     list.empty();
@@ -57,9 +42,9 @@
     renderPossibleCards();
   };
 
-  $('.preference-input').click(updateShufflePreferences);
   $('#cardPriceRangeSelector').on('slidechange', updateShufflePreferences);
 
+  $('.preference-input').click(updateShufflePreferences);
   $('#shuffleButton').click(shuffle);
 
   $('#cardPriceRangeSelector').slider({
@@ -72,6 +57,11 @@
     }
   });
 
-  updateShufflePreferences();
+  $.getJSON('/dominion-cards.json', function(data) {
+    existingActionCards = data;
+    possibleCards = _.cloneDeep(existingActionCards);
+    updateShufflePreferences();
+  });
+
 
 })();

@@ -1,0 +1,232 @@
+[
+  {
+    "name": "Cellar",
+    "set": "original",
+    "price": 2,
+    "types": [
+      "action"
+    ]
+  },
+
+  {
+    "name": "Chapel",
+    "set": "original",
+    "price": 2,
+    "types": [
+      "action"
+    ]
+  },
+
+  {
+    "name": "Moat",
+    "set": "original",
+    "price": 2,
+    "types": [
+      "action",
+      "reaction"
+    ]
+  },
+
+  {
+    "name": "Chancellor",
+    "set": "original",
+    "price": 3,
+    "types": [
+      "action"
+    ]
+  },
+
+  {
+    "name": "Village",
+    "set": "original",
+    "price": 3,
+    "types": [
+      "action"
+    ]
+  },
+
+  {
+    "name": "Woodcutter",
+    "set": "original",
+    "price": 3,
+    "types": [
+      "action"
+    ]
+  },
+
+  {
+    "name": "Workshop",
+    "set": "original",
+    "price": 3,
+    "types": [
+      "action"
+    ]
+  },
+
+  {
+    "name": "Bureaucrat",
+    "set": "original",
+    "price": 4,
+    "types": [
+      "action",
+      "attack"
+    ]
+  },
+
+  {
+    "name": "Feast",
+    "set": "original",
+    "price": 4,
+    "types": [
+      "action"
+    ]
+  },
+
+  {
+    "name": "Gardens",
+    "set": "original",
+    "price": 4,
+    "types": [
+      "victory"
+    ]
+  },
+
+  {
+    "name": "Militia",
+    "set": "original",
+    "price": 4,
+    "types": [
+      "action",
+      "attack"
+    ]
+  },
+
+  {
+    "name": "Moneylender",
+    "set": "original",
+    "price": 4,
+    "types": [
+      "action"
+    ]
+  },
+
+  {
+    "name": "Remodel",
+    "set": "original",
+    "price": 4,
+    "types": [
+      "action"
+    ]
+  },
+
+  {
+    "name": "Smithy",
+    "set": "original",
+    "price": 4,
+    "types": [
+      "action"
+    ]
+  },
+
+  {
+    "name": "Spy",
+    "set": "original",
+    "price": 4,
+    "types": [
+      "action",
+      "attack"
+    ]
+  },
+
+  {
+    "name": "Thief",
+    "set": "original",
+    "price": 4,
+    "types": [
+      "action",
+      "attack"
+    ]
+  },
+
+  {
+    "name": "Throne Room",
+    "set": "original",
+    "price": 4,
+    "types": [
+      "action"
+    ]
+  },
+
+  {
+    "name": "Council Room",
+    "set": "original",
+    "price": 5,
+    "types": [
+      "action"
+    ]
+  },
+
+  {
+    "name": "Festival",
+    "set": "original",
+    "price": 5,
+    "types": [
+      "action"
+    ]
+  },
+
+  {
+    "name": "Laboratory",
+    "set": "original",
+    "price": 5,
+    "types": [
+      "action"
+    ]
+  },
+
+  {
+    "name": "Library",
+    "set": "original",
+    "price": 5,
+    "types": [
+      "action"
+    ]
+  },
+
+  {
+    "name": "Market",
+    "set": "original",
+    "price": 5,
+    "types": [
+      "action"
+    ]
+  },
+
+  {
+    "name": "Mine",
+    "set": "original",
+    "price": 5,
+    "types": [
+      "action"
+    ]
+  },
+
+  {
+    "name": "Witch",
+    "set": "original",
+    "price": 5,
+    "types": [
+      "action",
+      "attack"
+    ]
+  },
+
+  {
+    "name": "Adventurer",
+    "set": "original",
+    "price": 6,
+    "types": [
+      "action"
+    ]
+  }
+]
