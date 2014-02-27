@@ -1,4 +1,31 @@
+body {
+  position: relative;
+}
+
 .slider {
   min-width: 200px;
   width: 50%;
+}
+
+#shuffleButton {
+  width: 8em;
+  line-height: 2em;
+  margin: 1em auto;
+}
+
+.card-list {
+  width: 80%;
+  margin: 1em auto;
+  padding: 0;
+}
+
+.card {
+  display: inline-block;
+  float: none;
+  padding: 0.6em;
+  margin: 0.6em;
+  width: 9em;
+  text-align: center;
+  list-style-type: none;
+  background-color: #e0e0e0;
 }

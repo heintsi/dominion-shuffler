@@ -7,7 +7,7 @@
   function updateCardList(cards, list) {
     list.empty();
     _.forEach(cards, function (card) {
-      list.append('<li>' + card.prettyName + '</li>');
+      list.append('<li class="card">' + card.name + '</li>');
     });
   }
 
